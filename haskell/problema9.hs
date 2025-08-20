@@ -1,0 +1,6 @@
+pizza :: Bool -> Int -> (Int, Bool)
+pizza True 1  = (1,True)
+pizza True 2  = (2,True)
+pizza False 1 = (3,False)
+pizza False 2 = (4,False)
+pizza False 3 = (5,False)
